@@ -61,6 +61,8 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -87,3 +89,17 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Source Sans Pro
+      fonts:
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-Black.ttf
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-BlackItalic.ttf
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-ExtraLight.ttf
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-Light.ttf
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-LightItalic.ttf
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-SemiBold.ttf
+        - asset: assets/fonts/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf
